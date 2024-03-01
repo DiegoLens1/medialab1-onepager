@@ -18,6 +18,15 @@ function App() {
           Learn React
         </a>
       </header>
+      <div className="first-prototype prototype">
+        test
+      </div>
+      <div className="second-prototype prototype">
+        test
+      </div>
+      <div className="third-prototype prototype">
+        test
+      </div>
     </div>
   );
 }
