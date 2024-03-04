@@ -2,6 +2,9 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .App-header {
@@ -15,9 +18,32 @@
   color: white;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 30vh;
+  width: 100%;
+  background: url(holdingHands.jpg) center no-repeat;
+  background-size: 100%;
+}
+
+.headerText {
+  text-align: center;
+  padding: 1em;
+  background-color: orange;
+  border-radius: 1em;
+}
+
+.introWrapper {
+  text-align: center;
+  width: 50%;
+}
+
 .prototype {
   display: flex;
-  gap: 1em
+  gap: 1em;
 }
 
 .prototype:nth-child(even) {
@@ -32,13 +58,23 @@
   display: flex;
   width: 80vw;
   flex-direction: column;
-  gap: 1em
+  gap: 1em;
 }
 
 .imageWrapper {
   display: flex;
   gap: 0.5em;
   flex-direction: column;
+  padding: 1em;
+}
+
+.descriptionWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1em;
+  line-height: 1.3em;
 }
 
 .imageWrapper > img {
