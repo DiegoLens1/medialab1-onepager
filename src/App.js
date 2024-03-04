@@ -1,5 +1,12 @@
 import "./App.css";
-import placeholder from "./placeholder.webp";
+import placeholder from "./img/placeholder.webp";
+import chartJS1 from "./img/chart-js1.png";
+import chartJS2 from "./img/chart-js2.png";
+import machineLearning1 from "./img/machine-learning1.png";
+import machineLearning2 from "./img/machine-learning2.png";
+import steadySteps1 from "./img/SteadySteps1.png";
+import steadySteps2 from "./img/SteadySteps2.png";
+import steadySteps3 from "./img/SteadySteps3.png";
 
 function App() {
   return (
@@ -22,115 +29,70 @@ function App() {
       <div className="prototypeWrapper">
         <div className="first-prototype prototype">
           <div className="imageWrapper">
-            <img src={placeholder} />
-            <img src={placeholder} />
+            <img src={chartJS1} />
+            <img src={chartJS2} />
           </div>
           <div className="descriptionWrapper">
             <h2>prototype een</h2>
+            <h3>Chart.js</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse volutpat ornare est, sed volutpat ipsum vulputate
-              eget. Vivamus vehicula tellus in rutrum ultrices. Nullam et sapien
-              ac dolor suscipit imperdiet ut eget velit. Suspendisse tristique
-              hendrerit sapien tincidunt posuere. Vestibulum aliquet tellus nec
-              sem sodales efficitur ac non justo. Praesent nec massa maximus,
-              iaculis ante vitae, commodo sem.
+              In dit prototype word de data die uit een valpreventie test komt
+              gebruikt om grafieken te maken waarin makkelijk en duidelijk alle
+              waarden terug te vinden zijn.
             </p>
             <p>
-              Duis convallis turpis et elit finibus scelerisque. Duis volutpat
-              ipsum ac semper tincidunt. Integer accumsan condimentum viverra.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac
-              felis aliquam, blandit urna quis, rutrum dolor. Nullam vitae
-              laoreet tellus. Fusce fringilla, tortor nec efficitur auctor, eros
-              nibh tristique urna, at condimentum quam ex non sem. Duis sed
-              libero quam. Pellentesque eleifend, augue sed interdum tempus,
-              justo tellus auctor tellus, condimentum tincidunt risus ligula ac
-              augue. Etiam ac tincidunt nisi.
+              In deze grafieken kan je makkelijk zien wanneer een waarde buiten
+              de norm valt en dit ook aan de patient laten zien en dit
+              bespreken.
             </p>
             <p>
-              Sed at vestibulum tortor. Vestibulum justo augue, tempor vitae
-              faucibus at, facilisis non ante. Pellentesque aliquet pulvinar
-              nibh nec auctor. Donec vel urna in magna laoreet lacinia. Vivamus
-              et euismod magna. Suspendisse quam dui, ornare in nulla ac,
-              imperdiet consequat ligula. Maecenas sed dolor mi. Aliquam vel
-              tincidunt turpis. In iaculis ipsum vel orci sodales porttitor.
-              Fusce lorem nisi, convallis id massa congue, tristique.
+              De grafieken worden per patiënt opgeslagen zodat deze later kunnen
+              worden gebruikt om te vergeleken en vooruitgang of achteruitgang
+              te zien.
             </p>
           </div>
         </div>
         <div className="second-prototype prototype">
           <div className="imageWrapper">
-            <img src={placeholder} />
-            <img src={placeholder} />
+            <img src={machineLearning1} />
+            <img src={machineLearning2} />
           </div>
           <div className="descriptionWrapper">
             <h2>prototype twee</h2>
+            <h3>Machine learning</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse volutpat ornare est, sed volutpat ipsum vulputate
-              eget. Vivamus vehicula tellus in rutrum ultrices. Nullam et sapien
-              ac dolor suscipit imperdiet ut eget velit. Suspendisse tristique
-              hendrerit sapien tincidunt posuere. Vestibulum aliquet tellus nec
-              sem sodales efficitur ac non justo. Praesent nec massa maximus,
-              iaculis ante vitae, commodo sem.
+              In dit prototype maken wij gebruik van machine learning om te
+              meten hoe groot de kans is op een val door het met andere data te
+              vergelijken.
             </p>
             <p>
-              Duis convallis turpis et elit finibus scelerisque. Duis volutpat
-              ipsum ac semper tincidunt. Integer accumsan condimentum viverra.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac
-              felis aliquam, blandit urna quis, rutrum dolor. Nullam vitae
-              laoreet tellus. Fusce fringilla, tortor nec efficitur auctor, eros
-              nibh tristique urna, at condimentum quam ex non sem. Duis sed
-              libero quam. Pellentesque eleifend, augue sed interdum tempus,
-              justo tellus auctor tellus, condimentum tincidunt risus ligula ac
-              augue. Etiam ac tincidunt nisi.
+              In het resultatenscherm word er ook aangegeven op welke data de AI
+              deze kans berekening heeft beoordeeld. Op basis hiervan kan de
+              fysiotherapeut zelf kiezen of hij vind dat de AI gelijk heeft of
+              zelf een andere conclusie trekken.
             </p>
             <p>
-              Sed at vestibulum tortor. Vestibulum justo augue, tempor vitae
-              faucibus at, facilisis non ante. Pellentesque aliquet pulvinar
-              nibh nec auctor. Donec vel urna in magna laoreet lacinia. Vivamus
-              et euismod magna. Suspendisse quam dui, ornare in nulla ac,
-              imperdiet consequat ligula. Maecenas sed dolor mi. Aliquam vel
-              tincidunt turpis. In iaculis ipsum vel orci sodales porttitor.
-              Fusce lorem nisi, convallis id massa congue, tristique.
+              De AI word getraind met veel gevallen waarin mensen geen kans
+              hebben om te vallen en gevallen waar er wel kans is om te vallen.
+              De AI kan daarna met deze training alles vergelijken en bepalen of
+              er een hoge of lage kans is om te vallen
             </p>
           </div>
         </div>
         <div className="third-prototype prototype">
           <div className="imageWrapper">
-            <img src={placeholder} />
-            <img src={placeholder} />
+            <img src={steadySteps1} />
+            <img src={steadySteps2} />
+            <img src={steadySteps3} />
           </div>
           <div className="descriptionWrapper">
             <h2>prototype drie</h2>
+            <h3>SteadySteps</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse volutpat ornare est, sed volutpat ipsum vulputate
-              eget. Vivamus vehicula tellus in rutrum ultrices. Nullam et sapien
-              ac dolor suscipit imperdiet ut eget velit. Suspendisse tristique
-              hendrerit sapien tincidunt posuere. Vestibulum aliquet tellus nec
-              sem sodales efficitur ac non justo. Praesent nec massa maximus,
-              iaculis ante vitae, commodo sem.
-            </p>
-            <p>
-              Duis convallis turpis et elit finibus scelerisque. Duis volutpat
-              ipsum ac semper tincidunt. Integer accumsan condimentum viverra.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac
-              felis aliquam, blandit urna quis, rutrum dolor. Nullam vitae
-              laoreet tellus. Fusce fringilla, tortor nec efficitur auctor, eros
-              nibh tristique urna, at condimentum quam ex non sem. Duis sed
-              libero quam. Pellentesque eleifend, augue sed interdum tempus,
-              justo tellus auctor tellus, condimentum tincidunt risus ligula ac
-              augue. Etiam ac tincidunt nisi.
-            </p>
-            <p>
-              Sed at vestibulum tortor. Vestibulum justo augue, tempor vitae
-              faucibus at, facilisis non ante. Pellentesque aliquet pulvinar
-              nibh nec auctor. Donec vel urna in magna laoreet lacinia. Vivamus
-              et euismod magna. Suspendisse quam dui, ornare in nulla ac,
-              imperdiet consequat ligula. Maecenas sed dolor mi. Aliquam vel
-              tincidunt turpis. In iaculis ipsum vel orci sodales porttitor.
-              Fusce lorem nisi, convallis id massa congue, tristique.
+              In dit prototype werken we met een 3D model om te visualiseren
+              waar het probleem zit. Hiermee proberen wij het ook meer geschikt
+              te maken om direct aan de patiënt te laten zien zodat deze ook een
+              beeld heeft van wat er goed en fout gaat.
             </p>
           </div>
         </div>
