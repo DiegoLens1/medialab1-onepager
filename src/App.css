@@ -1,16 +1,7 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .App-header {
@@ -24,23 +15,32 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .prototype {
   display: flex;
+  gap: 1em
 }
 
-.prototype:nth-child(odd) {
+.prototype:nth-child(even) {
   flex-direction: row-reverse;
+}
+
+.prototype > * {
+  flex: 1;
+}
+
+.prototypeWrapper {
+  display: flex;
+  width: 80vw;
+  flex-direction: column;
+  gap: 1em
+}
+
+.imageWrapper {
+  display: flex;
+  gap: 0.5em;
+  flex-direction: column;
+}
+
+.imageWrapper > img {
+  width: 100%;
 }
