@@ -80,3 +80,9 @@
 .imageWrapper > img {
   width: 100%;
 }
+
+@media (max-width: 700px) {
+  .prototype {
+    flex-direction: column-reverse !important;
+  }
+}

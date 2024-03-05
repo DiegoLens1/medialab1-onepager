@@ -1,5 +1,4 @@
 import "./App.css";
-import placeholder from "./img/placeholder.webp";
 import chartJS1 from "./img/chart-js1.png";
 import chartJS2 from "./img/chart-js2.png";
 import machineLearning1 from "./img/machine-learning1.png";
@@ -29,8 +28,8 @@ function App() {
       <div className="prototypeWrapper">
         <div className="first-prototype prototype">
           <div className="imageWrapper">
-            <img src={chartJS1} />
-            <img src={chartJS2} />
+            <img src={chartJS1} alt="Chart.js prototype one" />
+            <img src={chartJS2} alt="Chart.js prototype two" />
           </div>
           <div className="descriptionWrapper">
             <h2>prototype een</h2>
@@ -54,8 +53,14 @@ function App() {
         </div>
         <div className="second-prototype prototype">
           <div className="imageWrapper">
-            <img src={machineLearning1} />
-            <img src={machineLearning2} />
+            <img
+              src={machineLearning1}
+              alt="Machinelearning prototype one"
+            />
+            <img
+              src={machineLearning2}
+              alt="Machinelearning prototype two"
+            />
           </div>
           <div className="descriptionWrapper">
             <h2>prototype twee</h2>
@@ -81,9 +86,9 @@ function App() {
         </div>
         <div className="third-prototype prototype">
           <div className="imageWrapper">
-            <img src={steadySteps1} />
-            <img src={steadySteps2} />
-            <img src={steadySteps3} />
+            <img src={steadySteps1} alt="Steadysteps prototype one" />
+            <img src={steadySteps2} alt="Steadysteps prototype two" />
+            <img src={steadySteps3} alt="Steadysteps prototype Three" />
           </div>
           <div className="descriptionWrapper">
             <h2>prototype drie</h2>
