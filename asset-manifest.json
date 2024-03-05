@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/medialab1-onepager/static/css/main.e759298f.css",
+    "main.js": "/medialab1-onepager/static/js/main.bb5bf943.js",
+    "static/js/453.116fa3af.chunk.js": "/medialab1-onepager/static/js/453.116fa3af.chunk.js",
+    "static/media/machine-learning2.png": "/medialab1-onepager/static/media/machine-learning2.283a0e489bb676e18bc8.png",
+    "static/media/machine-learning1.png": "/medialab1-onepager/static/media/machine-learning1.5744fcd4b9b4c0186d81.png",
+    "static/media/SteadySteps1.png": "/medialab1-onepager/static/media/SteadySteps1.acbfacc0962a882fa0b0.png",
+    "static/media/holdingHands.jpg": "/medialab1-onepager/static/media/holdingHands.b75b307ad3ad1d9c0fc8.jpg",
+    "static/media/SteadySteps3.png": "/medialab1-onepager/static/media/SteadySteps3.3f8684e5d72831eab12d.png",
+    "static/media/SteadySteps2.png": "/medialab1-onepager/static/media/SteadySteps2.438da244f1a85fcb011a.png",
+    "static/media/chart-js2.png": "/medialab1-onepager/static/media/chart-js2.e7eaf11efcfee52bd19d.png",
+    "static/media/chart-js1.png": "/medialab1-onepager/static/media/chart-js1.3d161ab998180f685332.png",
+    "index.html": "/medialab1-onepager/index.html",
+    "main.e759298f.css.map": "/medialab1-onepager/static/css/main.e759298f.css.map",
+    "main.bb5bf943.js.map": "/medialab1-onepager/static/js/main.bb5bf943.js.map",
+    "453.116fa3af.chunk.js.map": "/medialab1-onepager/static/js/453.116fa3af.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e759298f.css",
+    "static/js/main.bb5bf943.js"
+  ]
+}
